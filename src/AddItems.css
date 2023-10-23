@@ -1,0 +1,20 @@
+.flexing{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.add{
+    font-family: "Gill Sans", sans-serif;
+    font-size: 26px;
+    font-weight:bold;
+}
+.subheading{
+    font-family: "Gill Sans", sans-serif;
+    font-weight:500;
+    cursor:pointer;
+}
+.field{
+    margin-bottom: 20px !important;
+    margin-top:10px !important;
+}

@@ -1,0 +1,23 @@
+.details{
+    width:35%;
+    margin:auto;
+    margin-top:75px !important;
+      height:70vh;
+      padding:12px 18px;
+}
+.flexi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.aligning{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.centered-image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
