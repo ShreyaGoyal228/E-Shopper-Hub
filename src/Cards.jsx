@@ -12,11 +12,12 @@ const Cards = (props) => {
     navigate('/info',{state:props.product})
   }
   return (
-    <Box className='card' onClick={changePage}>
+    <Box className='card'>
      <Card style={{marginTop:20,
     height:'100%'}}>
  <CardActionArea>
           <CardMedia
+          onClick={changePage}
           component="img"
           height="260"
           image={props.product.image}
