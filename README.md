@@ -1,9 +1,5 @@
-# E_commerce_App
-Assignmemt for Frontend Developer position at Optimite Technologies Private Limited
-
-Install the json server on your editor: npm i --save json-server
-Create a fake_data.json file with the fake data
-And then start your json-server
+# E-commerce-Project
+Developed a responsive and dynamic E-Commerce website using ReactJs, showcasing a variety of products for different categories. Integrated Firebase Authentication for secure user registration and login/logout functionality. Implemented features including product search, sorting by price and categories , and currently working on enhancing user experience with skeleton loading and pagination. 
 
 
 
