@@ -1,0 +1,9 @@
+.text{
+    color:#fff !important;
+    height:25px !important;
+    outline:none !important;
+}
+.text:hover{
+    background-color: #fff !important;
+    color:black !important;
+}

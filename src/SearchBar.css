@@ -1,0 +1,29 @@
+.middle{
+    padding:0rem .3rem;
+    display: flex;
+    justify-content: center;
+    margin:14px 0px;
+}
+form{
+    width:60%;
+    display:flex;
+   padding:.1rem;
+   border-radius: 25px;
+   border:1px solid;
+}
+input{
+    width:100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    padding:.3rem .8rem;
+}
+.bttn{
+    background: none;
+    border:none;
+    padding:0rem 1.1rem;
+}
+.bttn:hover{
+    border: none;
+}

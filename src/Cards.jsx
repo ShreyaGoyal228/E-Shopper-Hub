@@ -6,20 +6,20 @@ import DeleteIcon from '@mui/icons-material/Delete';
 const Cards = (props) => {
   let navigate=useNavigate();
   const deleteProduct=()=>{
-    props.gettingId(props.product.id)
+    navigate('/delete',{state:props.product});
   }
   const changePage=()=>{
     navigate('/info',{state:props.product})
   }
   return (
     <Box className='card'>
-     <Card style={{marginTop:20,
+     <Card style={{marginTop:6,
     height:'100%'}}>
  <CardActionArea>
           <CardMedia
           onClick={changePage}
           component="img"
-          height="260"
+          height="200"
           image={props.product.image}
           alt="image"
            sx={{ padding: "1em 1em 0 1em", objectFit: "contain" }}

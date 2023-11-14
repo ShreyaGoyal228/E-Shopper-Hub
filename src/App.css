@@ -1,0 +1,9 @@
+.app_container{
+    display:flex !important;
+    width:100% !important;
+ margin-top: 9vh;
+}
+.app_main{
+    background-color: #c5f4e0;
+    width:100%;
+}
