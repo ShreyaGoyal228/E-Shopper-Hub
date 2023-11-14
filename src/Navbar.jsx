@@ -12,7 +12,7 @@ const handleSortChange=(sortOrder)=>{
     className='header'>
     <Toolbar className='toolbar'>
         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} className='heading'>
-          ShipStation
+          E-Shopper Hub
         </Typography>
       <Button
       className='btn'>
